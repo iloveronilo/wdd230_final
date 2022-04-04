@@ -50,6 +50,9 @@ p, h3 {
 figcaption {
     font-family: 'Frank Ruhl Libre', serif;
 }
+#thankYou {
+    color:brown;
+}
 /* NAVIGATION */
 nav button {
     margin: 0.5rem 2vw;
@@ -147,26 +150,89 @@ footer {
     font-size: 1rem;
 }
 .newsContent {
-    display: grid;
-    grid-template-columns:  repeat(4, 1fr);
-    align-items: center;
-    justify-content: center;
-    margin: 1rem;
-    gap: 1rem;
+    display: inline-block; 
 }
 .newsContent picture {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.newsContent img {
+    border: 6px groove #cbc0d3;
+}
 .newsTitle1 {
-    background-color: #dee2ff;
-    padding: 4rem;
+    padding: 1rem;
 }
 .newsTitle2 {
-    background-color: #cbc0d3;
-    padding: 4rem;
+    padding: 1rem;
 }
 .newsTitle1 h2, .newsTitle2 h2 {
     font-family: 'Birthstone', cursive, sans-serif;
+    color:#555b64;
+    font-size: 2rem;
+}
+/* CONTACT PAGE */
+.contactMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
+}
+.contactMain .contactContent {
+    display: inline-block;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+form fieldset {
+    margin: 2rem 0;
+    padding: 0.5rem 2%;
+    border-radius: 10px;
+    border: 1px solid #8e9aaf;
+    font-family: 'Domine', tahoma, serif;
+}
+form legend {
+    color:black;
+    margin: 0 1rem;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: 0.8rem;
+}
+form label.top input,
+form label.top textarea {
+    -webkit-appearance: none;
+     display: block;
+    font-size: 1rem;
+    border: solid 1px #8e9aaf;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form input.submitBtn {
+    border: none;
+    background-color: #8e9aaf;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 19rem;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+.contactSection {
+    background-color: #dee2ff;
+    border:6px groove #cbc0d3;
 }

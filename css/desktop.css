@@ -34,6 +34,10 @@
         font-size: 1.5rem;
     }
     /* MAIN PAGE */
+    .newsContent {
+        display: grid;
+        grid-template-columns:  repeat(4, 1fr);
+    }
     .subHeader {
         padding: 2rem;
     }
@@ -41,6 +45,11 @@
         margin: 1rem 2rem 1rem 2rem;
     }
     .newsTitle1 h2, .newsTitle2 h2 {
-        font-size: 3rem;
+        font-size: 4rem;
+    }
+    /* CONTACT PAGE */
+    .contactMain {
+        grid-template-columns:1fr 1fr;
+        
     }
 }

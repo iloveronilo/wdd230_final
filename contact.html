@@ -49,7 +49,55 @@
       </nav>
     </header>
     <!-- MAIN CONTENT -->
-    <main></main>
+    <main class="contactMain">
+      <section class="contactSection">
+        <h1>CALL 2 SERVE Contact Information</h1>
+        <h2>Contact Nos. Tel: 935-047-5555</h2>
+        <h2>Email Us: call2serve@gmail.com</h2>
+      </section>
+      <div class="contactContent">
+        <h2>Send Your Message to Us</h2>
+        <form action="thankYou.html" method="get">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label class="top"
+              >First name* <input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Last name* <input type="text" name="lname" required
+            /></label>
+            <label class="top"
+              >Phone Number*
+              <input
+                type="number"
+                name="phone"
+                placeholder="09150000000"
+                required
+            /></label>
+            <label class="top"
+              >Email*
+              <input
+                type="email"
+                name="email"
+                placeholder="someone@gmail.com"
+                required
+            /></label>
+
+            <label class="top"
+              >Message Content
+              <textarea
+                name="message"
+                id="message"
+                cols="50"
+                rows="10"
+                placeholder="Please Type Here!"
+              ></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" value="Send My Message" class="submitBtn" />
+        </form>
+      </div>
+    </main>
     <!-- FOOTER AREA -->
     <footer>
       <div class="botTitle">

@@ -6,3 +6,6 @@ function toggleMenu() {
 
 const x = document.getElementById("navButton");
 x.onclick = toggleMenu;
+
+// FOOTER LAST UPDATE TIME
+document.querySelector("#lastmod").innerHTML = `Last updated: ${document.lastModified}`;

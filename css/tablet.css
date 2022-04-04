@@ -1,0 +1,22 @@
+/* 35rem is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    header {
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+    /* FOOTER */
+    footer {
+    margin: 0.5rem;
+    }
+    /* FONTS */
+    h1 {
+    font-size: 3rem;
+    }
+    h2 {
+    font-size: 1.5rem;
+    }
+    p, figcaption{
+        font-size: 1.5rem;
+    }
+
+}

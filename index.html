@@ -18,35 +18,101 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="css/desktop.css" />
-    <script defer src="js/trans.js"></script>
+    <script defer src="js/script.js"></script>
     <title>hotel</title>
   </head>
 
   <body>
     <!-- HEADER AREA-->
     <header>
-      <section class="titleHead">
+      <picture>
+        <source srcset="images/logo_desktop.png" media="(min-width: 1024px)" />
+        <source srcset="images/logo_tablet.png" media="(min-width: 721px)" />
+        <img id="logo" src="images/logo_small.png" alt="logo" />
+      </picture>
+      <section class="heading">
         <h2>CALL 2 SERVE</h2>
-        <h2>Hotel & Restaurant</h2>
+        <h2>Temple Inn & Suites</h2>
       </section>
       <nav>
         <button id="navButton"><span>&#9776;</span><span>x</span></button>
-        <ul id="primaryNav">
-          <li><a href="bookHere.html">Book Here!</a></li>
-          <li><a id="active" href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="amenities.html">Amenities</a></li>
-          <li><a href="howToGetThere.html">How To Get There</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+        <span>
+          <ul id="primaryNav">
+            <li><a id="bookHere" href="bookHere.html">Book Here!</a></li>
+            <li><a id="active" href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="amenities.html">Amenities</a></li>
+            <li><a href="howToGetThere.html">How to get there</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </span>
       </nav>
     </header>
     <!-- MAIN CONTENT -->
-    <main></main>
+    <main class="mainPage">
+      <h1>Hotel & Restaurant</h1>
+      <h2 class="subHeader">We are excited to welcome you back</h2>
+      <div class="cover">
+        <figure>
+          <picture>
+            <source srcset="images/cover.jpg" media="(min-width: 1024px)" />
+            <source
+              srcset="images/cover_tablet.png"
+              media="(min-width: 721px)"
+            />
+            <img src="images/cover_small.png" alt="latest-news" />
+          </picture>
+          <figcaption>Meet our finest hotel</figcaption>
+        </figure>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <div class="newsContent">
+        <picture>
+          <source
+            srcset="images/chefBoy_desktop.jpg"
+            media="(min-width: 1024px)"
+          />
+          <source
+            srcset="images/chefBoy_tablet.jpg"
+            media="(min-width: 721px)"
+          />
+          <img src="images/chefBoy_small.jpg" alt="latest-news" />
+        </picture>
+        <div class="newsTitle1">
+          <h2 class="news">Weekly Specials</h2>
+          <h3 class="news">New Signature Dishes</h3>
+          <p class="news">
+            Please come in and experience Chef Boy Logro's special menu today!
+          </p>
+        </div>
+
+        <picture>
+          <source
+            srcset="images/chefBoy_desktop.jpg"
+            media="(min-width: 1024px)"
+          />
+          <source
+            srcset="images/chefBoy_tablet.jpg"
+            media="(min-width: 721px)"
+          />
+          <img src="images/chefBoy_small.jpg" alt="latest-news" />
+        </picture>
+        <div class="newsTitle2">
+          <h2 class="news">Lodging Package</h2>
+          <h3 class="news">Affordable Lodge On Hand</h3>
+          <p class="news">
+            Spend a pleasant evening without worrying about the cost. So seat
+            back relax and enjoy.
+          </p>
+        </div>
+      </div>
+    </main>
     <!-- FOOTER AREA -->
     <footer>
       <div class="botTitle">
-        <h2 id="botTitle">CALL 2 SERVE | Hotel & Restaurant</h2>
+        <h2 id="botTitle">CALL 2 SERVE | Temple Inn & Suites</h2>
         <p id="contact">
           WhitePlains, Quezon city | Contact Nos. Tel: 935-047-5555
         </p>
@@ -55,6 +121,7 @@
         <p id="copyright">
           &copy; 2022 &#9925;| Ronilo O. Gulay &#9925;| WDD230 | Philippines
         </p>
+        <p id="lastmod"></p>
       </div>
     </footer>
   </body>

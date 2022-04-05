@@ -37,4 +37,23 @@
         margin-left: 2rem;
         margin-right: 2rem;
     }
+    /* HOW TO GET THERE PAGE */
+    .addressInfo {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+    /* GOOGLE MAP */
+    iframe {
+        width: 300px;
+        height: 350px;
+    }
+    /* TABLE */
+    table {
+        margin:1rem;
+    }
+    th {
+        font-size: 1rem;
+    }
 }

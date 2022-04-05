@@ -49,7 +49,83 @@
       </nav>
     </header>
     <!-- MAIN CONTENT -->
-    <main></main>
+    <main>
+      <h1>Slot Reservation and Booking</h1>
+      <br />
+      <hr />
+      <div class="bookContent">
+        <form action="thankYou.html" method="get">
+          <fieldset>
+            <legend>Book a Reservation Slot</legend>
+            <label class="sbs">Date</label>
+            <input type="date" name="dateVisit" />
+
+            <label class="sbs"
+              ><input type="radio" name="lodgeLevel" value="suite" />Temple Inn
+              & Suite</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="lodgeLevel" value="hotel" />Hotel &
+              Restaurant</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="lodgeLevel" value="package" />Package
+              Lodge</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="lodgeLevel" value="resto" />Restaurant
+            </label>
+
+            <label class="top"
+              >First name* <input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Last name* <input type="text" name="lname" required
+            /></label>
+            <label class="top"
+              >Phone Number*
+              <input
+                type="number"
+                name="phone"
+                placeholder="09150000000"
+                required
+            /></label>
+            <label class="top"
+              >Email*
+              <input
+                type="email"
+                name="email"
+                placeholder="someone@gmail.com"
+                required
+            /></label>
+          </fieldset>
+          <input type="submit" value="Book a Schedule" class="submitBtn" />
+        </form>
+        <table>
+          <caption>
+            Lodge Operating Days
+          </caption>
+          <tbody>
+            <tr>
+              <th>Temple Inn & Suit</th>
+              <th>Tuesday - Saturday</th>
+              <th>Hotel</th>
+              <th>Monday - Saturday</th>
+              <th>Restaurant</th>
+              <th>Monday - Saturday</th>
+            </tr>
+            <tr>
+              <th>Free Transport</th>
+              <th>Tuesday - Saturday</th>
+              <th>Package Lodge</th>
+              <th>Tuesday - Saturday</th>
+              <th>Closed</th>
+              <th>Sunday</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
     <!-- FOOTER AREA -->
     <footer>
       <div class="botTitle">

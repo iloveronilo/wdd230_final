@@ -50,6 +50,20 @@
     /* CONTACT PAGE */
     .contactMain {
         grid-template-columns:1fr 1fr;
-        
+    }
+    /* GOOGLE MAP */
+    iframe {
+        width: 500px;
+        height: 500px;
+    }
+    /* BOOK HERE */
+    .bookContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 1rem;
+    }
+    th {
+        font-size: 1.25rem;
     }
 }

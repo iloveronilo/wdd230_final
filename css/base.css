@@ -185,7 +185,7 @@ footer {
     justify-content: center;
 }
 form fieldset {
-    margin: 2rem 0;
+    margin: 2rem;
     padding: 0.5rem 2%;
     border-radius: 10px;
     border: 1px solid #8e9aaf;
@@ -206,7 +206,7 @@ form div {
 form label.top input,
 form label.top textarea {
     -webkit-appearance: none;
-     display: block;
+    display: block;
     font-size: 1rem;
     border: solid 1px #8e9aaf;
     border-radius: 4px;
@@ -217,14 +217,19 @@ form label.top textarea {
     background-color: rgba(0, 0, 0, 0.1);
 }
 form input.submitBtn {
-    border: none;
-    background-color: #8e9aaf;
+    border: 5px double #efd3d7;
+    background-color: #555b64;
     color: white;
     border-radius: 1rem;
-    padding: 0.75rem 1.5rem;
+    padding: 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 19rem;
+    font-size: 1.5rem;
+}
+form input.submitBtn:hover {
+    background-color: #dee2ff;
+    color: brown;
 }
 form label.top input:required {
     border-left: red solid 6px;
@@ -235,4 +240,76 @@ form label.top input:required:valid {
 .contactSection {
     background-color: #dee2ff;
     border:6px groove #cbc0d3;
+    padding: 1rem;
+}
+.contactSection h1{
+    color:#555b64;
+}
+.social {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+/* HOW TO GET THERE */
+.visit{
+    display: inline-block;
+    text-align: center;
+}
+.addressInfo {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+address {
+    color: #555b64;
+}
+/*GOOGLE MAP*/
+.mapouter {
+    position: relative;
+    text-align: center;
+    margin: 1rem;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+}
+iframe {
+    width: 300px;
+    height: 300px;
+}
+/* BOOK HERE PAGE */
+form label.sbs {
+    display: block;
+    color: #555b64;
+    padding: 0.65rem 0rem;
+}
+.bookContent {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* TABLE */
+table {
+    border-spacing: 0;
+    border-radius: 1rem;
+    border-collapse: collapse;
+    text-align: center;
+    height: 30%;
+}
+th {
+    padding: 0.5rem;
+    border: 1px solid #8e9aaf;
+    font-size: 0.75rem;
+}
+th {
+    background-color: #cbc0d3;
+}
+th:nth-child(even) {
+    background-color: #efd3d7;
+}
+thead {
+    font-weight: bold;
+}
+caption {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 1rem;
 }

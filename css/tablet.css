@@ -18,7 +18,7 @@
     p, figcaption{
         font-size: 1.5rem;
     }
-    .newsTitle1 h2, .newsTitle2 h2 {
+    .newsContent h2, .newsContent h2 {
         font-size: 3rem;
     }
     /* MAIN PAGE */
@@ -27,9 +27,9 @@
         grid-template-columns:  repeat(2, 1fr);
         align-items: center;
         justify-content: center;
-        gap: 1rem;
         margin: 1rem;
-        padding: 2rem;
+        padding: 1rem;
+        gap: 1rem;
     }
     /* CONTACT PAGE*/
     .contactMain {
@@ -55,5 +55,16 @@
     }
     th {
         font-size: 1rem;
+    }
+    /* WEATHER */
+    .sectWeather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    /* AMENITIES PAGE */
+    .amenitiesContent ul li {
+        font-size: 1.5rem;
     }
 }

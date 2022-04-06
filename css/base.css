@@ -150,7 +150,8 @@ footer {
     font-size: 1rem;
 }
 .newsContent {
-    display: inline-block; 
+    display: inline-block;
+    text-align: center;
 }
 .newsContent picture {
     display: flex;
@@ -160,16 +161,12 @@ footer {
 .newsContent img {
     border: 6px groove #cbc0d3;
 }
-.newsTitle1 {
-    padding: 1rem;
-}
-.newsTitle2 {
-    padding: 1rem;
-}
-.newsTitle1 h2, .newsTitle2 h2 {
+
+.newsContent h2, .newsContent h2 {
     font-family: 'Birthstone', cursive, sans-serif;
     color:#555b64;
     font-size: 2rem;
+    padding: 1rem;
 }
 /* CONTACT PAGE */
 .contactMain {
@@ -311,5 +308,22 @@ thead {
 caption {
     font-size: 1.5rem;
     font-weight: bolder;
+    padding: 1rem;
+}
+/* WEATHER */
+.sectWeather {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+#weatherName {
+    box-shadow: 0 0 20px #333;
+}
+/* AMENITIES PAGE */
+.amenitiesContent ul li{
+    text-align: center;
+    font-family: 'Domine', tahoma, serif;
+    font-size: 1.25rem;
+    list-style-type: none;
     padding: 1rem;
 }

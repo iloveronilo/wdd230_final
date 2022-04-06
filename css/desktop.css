@@ -37,14 +37,12 @@
     .newsContent {
         display: grid;
         grid-template-columns:  repeat(4, 1fr);
+        gap: 2rem;
     }
     .subHeader {
         padding: 2rem;
     }
-    .newsContent {
-        margin: 1rem 2rem 1rem 2rem;
-    }
-    .newsTitle1 h2, .newsTitle2 h2 {
+    .newsContent h2, .newsContent h2 {
         font-size: 4rem;
     }
     /* CONTACT PAGE */

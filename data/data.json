@@ -1,0 +1,32 @@
+{
+    "temple": [
+        {
+            "name": "Manila Temple",
+            "addres": "13 Temple Dr, Quezon City, 1110 Metro Manila",
+            "phone": "(02) 8635 9111",
+            "website": "https://www.churchofjesuschrist.org/temples/details/manila-philippines-temple?lang=eng",
+            "imageUrl": ""
+        },
+        {
+            "name": "Cebu Temple",
+            "addres": "Gorordo Avenue, Barangay Lahug, Cebu City, 6000 Cebu, Philippines",
+            "phone": "(63) 32-230-1207",
+            "website": "https://www.churchofjesuschrist.org/temples/details/cebu-city-philippines-temple?lang=eng",
+            "imageUrl": ""
+        },
+        {
+            "name": "Sapporo Japan Temple",
+            "addres": "1-6-1 Oyachi-Nishi Atsubetsu-ku Sapporo, Hokkaido 004-0042, Japan",
+            "phone": "(81) 11-890-8120",
+            "website": "https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng",
+            "imageUrl": ""
+        },
+        {
+            "name": "Idaho Falls Idaho Temple",
+            "addres": "1000 Memorial Dr Idaho Falls ID 83402-3410 United States",
+            "phone": "(1) 208-522-7669",
+            "website": "https://www.churchofjesuschrist.org/temples/details/idaho-falls-idaho-temple?lang=eng",
+            "imageUrl": ""
+        }
+    ]
+}

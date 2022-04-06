@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="css/desktop.css" />
     <script defer src="js/script.js"></script>
+    <script defer src="js/weather.js"></script>
     <title>hotel</title>
   </head>
 
@@ -36,16 +37,14 @@
       </section>
       <nav>
         <button id="navButton"><span>&#9776;</span><span>x</span></button>
-        <span>
-          <ul id="primaryNav">
-            <li><a id="bookHere" href="bookHere.html">Book Here!</a></li>
-            <li><a id="active" href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="amenities.html">Amenities</a></li>
-            <li><a href="howToGetThere.html">How to get there</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </span>
+        <ul id="primaryNav">
+          <li><a id="bookHere" href="bookHere.html">Book Here!</a></li>
+          <li><a id="active" href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="howToGetThere.html">How to get there</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
       </nav>
     </header>
     <!-- MAIN CONTENT -->
@@ -79,7 +78,7 @@
           />
           <img src="images/chefBoy_small.jpg" alt="chef-boy" />
         </picture>
-        <section class="newsTitle1">
+        <section>
           <h2 class="news">Weekly Specials</h2>
           <h3 class="news">New Signature Dishes</h3>
           <p class="news">
@@ -95,7 +94,7 @@
           <source srcset="images/hotel_tablet.jpg" media="(min-width: 721px)" />
           <img src="images/hotel_small.jpg" alt="lodging-package" />
         </picture>
-        <section class="newsTitle2">
+        <section>
           <h2 class="news">Lodging Package</h2>
           <h3 class="news">Affordable Lodge On Hand</h3>
           <p class="news">
@@ -104,6 +103,38 @@
           </p>
         </section>
       </div>
+      <hr />
+      <section class="sectWeather">
+        <picture>
+          <source
+            srcset="images/forecast_desktop.jpg"
+            media="(min-width: 1024px)"
+          />
+          <source
+            srcset="images/forecast_tablet.jpg"
+            media="(min-width: 721px)"
+          />
+          <img
+            id="weatherName"
+            src="images/forecast_small.jpg"
+            alt="lodging-package"
+          />
+        </picture>
+
+        <div class="temperature">
+          <figure>
+            <img id="weatherIcon" src="images/enjoy1.webp" alt="weatherIcon" />
+          </figure>
+          <p><span id="tempDegree"></span>&deg;C</p>
+          <p id="tempName"></p>
+          <br />
+          <div class="windChill">
+            <p id="windSpeed"></p>
+            <p id="windChill"></p>
+            <p id="feelsLike"></p>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- FOOTER AREA -->
     <footer>

@@ -27,7 +27,7 @@ function displayTemple(temple) {
     comp_img.setAttribute('loading', 'lazy');
 
     comp_name.textContent = `${temple.name}`;
-    address.textContent = `${temple.address}`;
+    address.textContent = `${temple.addres}`;
     phone.textContent = `${temple.phone}`;
     web.innerHTML = `<a href="${temple.website}">${temple.website}</a>`;
 

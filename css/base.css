@@ -327,3 +327,28 @@ caption {
     list-style-type: none;
     padding: 1.1rem;
 }
+/* TEMPLE DATA */
+.datas {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    text-align: center;
+}
+.datas h2,
+.datas h3,
+.datas p {
+    text-align: center;
+    font-family: 'Domine', tahoma, serif;
+    font-size: 1.25rem;
+}
+a {
+    text-decoration: none;
+}
+.datas img {
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.datas img:hover {
+    box-shadow: 0 0 50px #333;
+}

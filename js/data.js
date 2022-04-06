@@ -23,7 +23,7 @@ function displayTemple(temple) {
     let web = document.createElement("p");
 
     comp_img.setAttribute('src', temple.imageUrl);
-    comp_img.setAttribute('alt', `Company logo of ${temple.name}`);
+    comp_img.setAttribute('alt', `temple photo of ${temple.name}`);
     comp_img.setAttribute('loading', 'lazy');
 
     comp_name.textContent = `${temple.name}`;
@@ -31,6 +31,7 @@ function displayTemple(temple) {
     phone.textContent = `${temple.phone}`;
     web.innerHTML = `<a href="${temple.website}">${temple.website}</a>`;
 
+    comp_section.appendChild(comp_name);
     comp_section.appendChild(comp_img);
     comp_section.appendChild(address);
     comp_section.appendChild(phone);
